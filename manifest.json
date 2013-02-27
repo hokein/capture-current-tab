@@ -1,0 +1,16 @@
+{
+  "name": "Capture and Save Current Tab",
+  "description": "The chrome demo extension whirch writes image file to local file system",
+  "manifest_version": 2,
+  "version": "1",
+  "permissions": [
+    "tabs",
+    "https://www.google.com/"
+  ],
+  "browser_action": {
+      "default_name": "Page Language"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
